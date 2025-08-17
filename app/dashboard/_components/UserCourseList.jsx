@@ -23,6 +23,7 @@ function UserCourseList() {
     setCourseList(result);
     setUserCourseList(result);
   };
+  
 
   return (
     <div className='mt-10'>

@@ -29,6 +29,7 @@ function Course() {
 
         console.log(result);
     }
+    
   return (
     <div>
         <Header />

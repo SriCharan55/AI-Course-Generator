@@ -70,11 +70,11 @@ function CourseBasicInfo({ course, refreshData,edit = true }) {
             {course?.category}
           </h2>
 
-          {!edit && <Link href = {'/course/'+course?.courseId+"/start"} >
+          <Link href = {'/course/'+course?.courseId+"/start"} >
           <Button variant="custom" className="w-full bg-[#875bf9] text-white mt-5">
             Start
           </Button>
-          </Link>}
+          </Link>
 
         </div>
 

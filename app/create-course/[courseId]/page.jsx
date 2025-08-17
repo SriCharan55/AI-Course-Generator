@@ -100,11 +100,12 @@ function CourseLayout() {
           publish:true
         })
 
-         router.replace('/create-course/'+course?.courseId+"/finish");
+         
       }
     }
 
     setLoading(false); // Done after all
+    router.replace('/create-course/'+course?.courseId+"/finish");
   };
 
 

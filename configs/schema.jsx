@@ -24,4 +24,5 @@ export const Chapters= pgTable('chapters',{
   videoId:varchar('videoId').notNull(),
 
 
+
 })
