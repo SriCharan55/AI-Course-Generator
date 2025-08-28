@@ -114,7 +114,7 @@ npm run dev
 ```
 
 5. **Open in Browser** → [http://localhost:3000]
-6. 🌐 Deployment
+6. 🌐 **Deployment**
 
 Frontend (Live on Vercel): [https://ai-course-generator-blush.vercel.app/]
 
